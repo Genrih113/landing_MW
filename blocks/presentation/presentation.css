@@ -1,0 +1,13 @@
+.presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  position: relative;
+  width: 100%;
+  max-width: 1230px;
+  /*min-height: 550px;*/
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background: linear-gradient(90deg, #2D1686 0%, #4E33B5 100%);
+}

@@ -1,0 +1,23 @@
+.navigation__list-item {
+  display: inline;
+  width: 83px;
+  height: 30px;
+}
+
+.navigation__list-item:hover {
+  cursor: pointer;
+  text-decoration: underline 1px solid #fff;
+}
+
+@media (max-width: 480px) {
+  .navigation__list-item {
+    display: block;
+    text-align: right;
+  }
+}
+
+@media (min-width: 481px) {
+  .navigation__list-item:last-child{
+    margin-left: 9vw;
+  }
+}

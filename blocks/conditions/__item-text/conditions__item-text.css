@@ -1,0 +1,11 @@
+.conditions__item-text {
+  font-family: Segoe UI, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 142%;
+  color: #474351;
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

@@ -1,0 +1,16 @@
+.conditions__item-header {
+  font-family: Segoe UI, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.32;
+  color: #2E2D35;
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+@media(max-width: 880px) {
+  .conditions__item-header {
+    font-size: 18px;
+  }
+}

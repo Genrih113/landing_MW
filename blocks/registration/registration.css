@@ -1,0 +1,14 @@
+.registration {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #2D1686 0%, #4E33B5 100%);
+  min-height: 371px;
+  border-radius: 10px;
+  position: relative;
+  padding: 70px;
+  width: 100%;
+  max-width: 1170px;
+  box-sizing: border-box;
+  overflow: hidden;
+}

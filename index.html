@@ -11,13 +11,13 @@
   </head>
   <body class="body">
     <header class="header body__section_wide">
-      <img class="logo" src="images/logo__illustration.svg"></img>
+      <img class="header__logo" src="images/logo__illustration.svg"></img>
       <nav class="navigation">
           <ul class="navigation__list">
               <li class="navigation__list-item">
                 <a>Клиентам</a>
               </li>
-              <li class="navigation__list-item navigation__list-item_iconed">
+              <li class="navigation__list-item navigation__list-item_login">
                 <img src="./images/account__illustration.svg" alt="Войти"
                   class="navigation__list-item-icon">
                 <a>Войти</a>
@@ -32,7 +32,7 @@
       </p>
       <button class="button presentation__button">Регистрация</button>
       <img src="./images/presentation__illustration.svg" alt="автомобиль"
-        class="presentation__illustration">
+        class="presentation__image">
     </section>
     <section class="conditions body__section">
       <h2 class="conditions__title">Меньше условий – больше возможностей</h2>
@@ -107,12 +107,6 @@
         <button class="form__close" type="button" aria-label="Закрыть"></button>
       </form>
     </div>
-    <script>
-      const button = document.querySelector('.navigation__list-item');
-      button.addEventListener('click', () => {
-        document.querySelector('.popup').classList.add('popup_opened');
-      });
-
-    </script>
+    <script type="text/javascript" src="pages/index.js"></script>
   </body>
 </html>

@@ -1,0 +1,15 @@
+@font-face {
+  src:
+    url('../vendor/fonts/Whitney-Medium.woff') format('woff'),
+    url('../vendor/fonts/Whitney-Medium.ttf') format('ttf');
+  font-family: 'Whitney';
+  font-weight: normal;
+}
+
+@font-face {
+  src:
+    url('../vendor/fonts/SegoeUI.woff') format('woff'),
+    url('../vendor/fonts/SegoeUI.ttf') format('ttf');
+  font-family: 'SegoeUI';
+  font-weight: normal;
+}

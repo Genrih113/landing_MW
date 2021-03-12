@@ -1,0 +1,22 @@
+.conditions__item {
+  display: flex;
+  justify-content: space-between;
+  width: calc(50% - 16px);
+  margin: 15px 0;
+  padding: 21px 10px 21px 40px;
+  background: #F6F5F9;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+@media (max-width: 1030px) {
+  .conditions__item {
+    flex-direction: column;
+    padding: 10px;
+    width: calc(50% - 16px);
+  }
+}
+@media (max-width: 480px) {
+  .conditions__item {
+    width: 100%;
+  }
+}

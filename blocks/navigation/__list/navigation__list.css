@@ -1,0 +1,11 @@
+.navigation__list{
+  list-style: none;
+  padding: 0;
+  margin-right: 30px;
+  font-family: Whitney, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 325;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}

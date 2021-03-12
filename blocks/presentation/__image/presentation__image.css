@@ -1,0 +1,25 @@
+.presentation__image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 90%;
+  max-height: 90%; /*442px;*/
+  z-index: 0;
+}
+@media (min-width: 1230px) {
+  .presentation__image {
+    right: calc(50% - 600px);
+  }
+}
+@media (max-width: 1030px) {
+  .presentation__image {
+    height: 342px;
+  }
+}
+@media (max-width: 880px) {
+  .presentation__image {
+    height: 242px;
+  }
+}

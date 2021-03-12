@@ -1,0 +1,12 @@
+.form__close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background-image: url('../../../images/form__close.svg');
+  width: 14px;
+  height: 14px;
+  border: none;
+  background-color: inherit;
+  background-size: cover;
+  background-position: center;
+}

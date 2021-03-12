@@ -1,0 +1,17 @@
+.registration__invite {
+  max-width: 560px;
+  width: 100%;
+  z-index: 1;
+  margin: 0;
+  font-family: Whitney, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 1.32;
+  color: #FFFFFF;
+}
+@media(max-width: 880px) {
+  .registration__invite {
+    font-size: 26px;
+  }
+}

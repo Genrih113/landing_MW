@@ -1,0 +1,10 @@
+.form__input-cell {
+  height: 50px;
+  border: 1px solid #DDDAE7;
+  border-radius: 4px;
+  font-family: Whitney, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 325;
+  font-size: 16px;
+  line-height: 100%;
+}
